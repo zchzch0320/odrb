@@ -1,0 +1,8 @@
+group	jobs
+p0_tabular_repair	54
+p1_support_shift_fix	30
+p3_linear_dim_sweep	45
+p3_linear_main_extended	15
+p3_support_shift_beta_sweep	125
+p4_linear_deployment_resweep	120
+TOTAL	389

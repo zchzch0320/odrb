@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code or its experiment results, please cite the accompanying paper."
+title: "Toward Online Robust Zero-Sum Markov Games with Function Approximation"
+authors:
+  - family-names: Zhou
+    given-names: Chenhao
+  - family-names: Wei
+    given-names: Jiyu
+type: software
