@@ -1,6 +1,6 @@
 # ODRB: robust zero-sum Markov game experiments
 
-Research code and seed-level results for **Toward Online Robust Zero-Sum Markov Games with Function Approximation**. This repository reproduces the experimental section of the accompanying [paper](paper/neurips_2026.pdf): linear-mixture games, two exact tabular games, and the original and redesigned support-shift benchmarks. The paper's theoretical proofs are in the PDF; this repository contains the experimental implementation.
+This repository contains the experimental implementation and reproducibility artifacts for [**Toward Online Robust Zero-Sum Markov Games with Function Approximation**](https://arxiv.org/abs/2610.26286) by Chenhao Zhou and Jiyu Wei (arXiv:2610.26286). It includes the code and seed-level results for the paper's linear-mixture games, two exact tabular games, and original and redesigned support-shift benchmarks. A [copy of the paper](paper/neurips_2026.pdf) is included; its theoretical proofs are in the paper.
 
 The main comparison uses ten paired environment seeds at feature dimension `d=8` and 5,000 episodes. The reported deployment-return difference for ODRB `(beta=0.30, tau=0.02)` versus the matched Sigma0 baseline is `0.009423`, with a paired-t 95% interval `[0.000694, 0.018153]` and Holm-adjusted exact sign-flip `p=0.046875`. The `(0.20, 0.02)` comparison is less conclusive. See [results and interpretation](docs/RESULTS.md) for the scope of these claims.
 
