@@ -58,4 +58,19 @@ The supported empirical claim is setting-specific: the main paired `d=8` ODRB op
 
 ## Citation and license
 
-Citation metadata is in [`CITATION.cff`](CITATION.cff). Code, experiment outputs, and repository documentation are released under the [MIT license](LICENSE). The included paper PDF is a reference copy and remains under the authors' copyright.
+If you use this repository, please cite the paper:
+
+```bibtex
+@misc{zhou2026toward,
+  title={Toward Online Robust Zero-Sum Markov Games with Function Approximation},
+  author={Chenhao Zhou and Jiyu Wei},
+  year={2026},
+  eprint={2610.26286},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2610.26286}
+}
+```
+
+Citation metadata is also in [`CITATION.cff`](CITATION.cff). Code, experiment outputs, and repository documentation are released under the [MIT license](LICENSE). The included paper PDF is a reference copy and remains under the authors' copyright.
+
